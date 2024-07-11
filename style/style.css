@@ -151,20 +151,21 @@ footer-title {
     font-weight: bold;
     color: #FFFFFF;
 }
-
+/* i changed the color but they did not take */
 .footer-pera {
     color: #FFFFFF;
 }
 
 .footer {
-    margin-left: 220px;
+    padding: 25px;
+    margin-left: 280px;
     margin-right: 220px;
     margin-bottom: 200px;
     text-align: center;
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
-    width: 800px;
+    width: 730px;
     height: 200px;
 }
 
