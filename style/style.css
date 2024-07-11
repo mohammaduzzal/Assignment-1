@@ -13,9 +13,11 @@
     font-size: 16px;
     font-weight: regular;
 }
+
 .main-title {
     font-size: 32px;
-    font-weight: extra-bold;}
+    font-weight: extra-bold;
+}
 
 /* polishing banner */
 .banner-title {
@@ -47,27 +49,18 @@
 /* the end */
 
 /* style of main */
-
-.main {
+/* 
+ .main {
     margin-left: 200px;
-    margin-right: 220px;
-}
+     margin-right: 200px;} */
 
 
 
-
-
-.parent {
-   
-    margin-bottom: 50px;
-    gap: 10px;
-    background-color: #FFFFFF;
-
-}
 
 .child {
     display: flex;
     justify-content: space-evenly;
+    background-color: #FFFFFF;
 
 
 
@@ -96,33 +89,59 @@ a:link {
 
 .explained {
     background-color: #f4f6fa;
-    padding: 54px 148px 25px 152px;
-
+    padding: 54px 148px 80px 152px;
+    margin: 74px 152px 25px 150px;
 }
+
 /* the end */
 
 
 /* 2nd section starts */
 
-.motivation{
+.motivation {
     text-align: center;
 }
+
 /* remove bullets */
-.list{
-   list-style-type: none;
+.list {
+    list-style-type: none;
 }
-    
+
+/* starts current target */
+.html {
+    font-size: 24px;
+    font-weight: extra-bold;
 
 
-    
-     
+}
+
+.click {
+    text-decoration: underline;
+}
 
 
 
+.current-father {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 10px;
 
 
-    
-       
-     
-    
-     
+
+}
+
+.current-child {
+    background-color: #EBEBEB;
+
+}
+
+.current-section {
+
+    margin: 200px;
+    height: 600px;
+    text-align: center;
+}
+/* the end of main part */
+
+/* starts of footer */
