@@ -138,10 +138,59 @@ a:link {
 
 .current-section {
 
-    margin: 200px;
-    height: 600px;
+    margin: 200px 200px 30px 200px;
+
     text-align: center;
 }
+
 /* the end of main part */
 
 /* starts of footer */
+footer-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-pera {
+    color: #FFFFFF;
+}
+
+.footer {
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 200px;
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 200px;
+}
+
+.Suggest {
+    width: 20px;
+}
+
+.btn-submit {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 10px;
+
+}
+
+.form-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+    
