@@ -1,36 +1,112 @@
-
 /* added a language */
-.language{
+.language {
     font-family: "Azeret Mono", monospace;
-    
-}
-/* polishing banner */
-.banner-title{
-    font-size:48px ;
-    font-weight:extra-bold ;
-    color:#0D1321 ;
 }
 
-.banner-intro{
-    font-size:16px ;
-    font-weight:regular ;
-    color:#0D1321 ;
-    
+/* shared style */
+.shared-color {
+    color: #0D1321;
+
 }
-.banner-button{
+
+.banner-intro {
+    font-size: 16px;
+    font-weight: regular;
+}
+
+/* polishing banner */
+.banner-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+
+}
+
+.banner-button {
     background-color: #0D1321;
     border-radius: 8px;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: semi-bold;
     padding: 8px;
+    border: none;
 }
-.banner-background{
+
+.banner-background {
     background-image: url(../assets/Hero-bg.png);
 }
-.hero-content{
-  text-align: center;
-  padding: 26px 221px 45px 221px;
-  
+
+.hero-content {
+    text-align: center;
+    padding: 26px 221px 45px 221px;
+
 }
+
 /* the end */
+
+/* style of main */
+
+.main {
+    margin-left: 200px;
+    margin-right: 220px;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: extra-bold;
+}
+
+
+.parent {
+   
+    margin-bottom: 50px;
+    gap: 10px;
+    background-color: #FFFFFF;
+
+}
+
+.child {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.code {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-learn {
+    font-size: 20;
+    font-weight: semi-bold;
+    padding: 12px 18px 12px 18px;
+
+}
+
+/*  remove the underline from a link */
+a:link {
+    text-decoration: none;
+}
+
+.explained {
+    background-color: #f4f6fa;
+    padding: 54px 148px 25px 152px;
+
+}
+    
+     
+
+
+
+
+
+    
+       
+     
+    
+     
