@@ -1,0 +1,36 @@
+
+/* added a language */
+.language{
+    font-family: "Azeret Mono", monospace;
+    
+}
+/* polishing banner */
+.banner-title{
+    font-size:48px ;
+    font-weight:extra-bold ;
+    color:#0D1321 ;
+}
+
+.banner-intro{
+    font-size:16px ;
+    font-weight:regular ;
+    color:#0D1321 ;
+    
+}
+.banner-button{
+    background-color: #0D1321;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: semi-bold;
+    padding: 8px;
+}
+.banner-background{
+    background-image: url(../assets/Hero-bg.png);
+}
+.hero-content{
+  text-align: center;
+  padding: 26px 221px 45px 221px;
+  
+}
+/* the end */
